@@ -50,3 +50,25 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+
+
+### Windows ###
+
+# Windows image file caches
+thumbs.db
+ehthumbs.db
+
+# Folder config file
+desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
