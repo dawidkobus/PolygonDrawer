@@ -13,7 +13,7 @@ public class Main extends Application {
 
 	@Override
 	public void start(Stage stage) throws IOException {
-		Parent root = FXMLLoader.load(getClass().getResource("gui/PolygonDrawer.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("gui/View.fxml"));
 		stage.setTitle(Controller.TITLE);
 		stage.setResizable(false);
 		stage.setScene(new Scene(root));
